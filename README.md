@@ -1,14 +1,14 @@
-# Previsão de Criptomoedas
+# Cryptocurrency Forecast
 
-Este projeto utiliza um modelo LSTM (Long Short-Term Memory) para prever os preços de fechamento do Bitcoin (BTC) em relação ao dólar americano (USD).
+This project uses an LSTM (Long Short-Term Memory) model to predict the closing prices of Bitcoin (BTC) against the US Dollar (USD).
 
-## Estrutura do Projeto
+## Project Structure
 
-- `CriptocurrencyPrediction.py`: Script principal que contém todo o código para carregar os dados, preparar os dados, construir e treinar o modelo LSTM, e fazer previsões.
+- `CryptocurrencyPrediction.py`: Main script that contains all the code to load the data, prepare the data, build and train the LSTM model, and make predictions.
 
-## Dependências
+## Dependencies
 
-Certifique-se de ter as seguintes bibliotecas instaladas:
+Make sure you have the following libraries installed:
 
 - `os`
 - `json`
@@ -19,7 +19,7 @@ Certifique-se de ter as seguintes bibliotecas instaladas:
 - `pandas`
 - `sklearn`
 
-Você pode instalar todas as dependências usando o seguinte comando:
+You can install all dependencies using the following command:
 
 ```sh
 pip install -r requirements.txt
